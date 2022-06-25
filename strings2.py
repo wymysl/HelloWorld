@@ -11,3 +11,10 @@ print(separators)
 
 values = "".join(char if char not in separators else " " for char in number).split()
 print([int(val) for val in values])
+
+print(parrot[3])
+print(parrot[4])
+print(parrot[9])
+print(parrot[3])
+print(parrot[6])
+print(parrot[8])
